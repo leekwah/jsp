@@ -1,0 +1,33 @@
+<%@page import="java.sql.Timestamp"%>
+<%@page import="semiProject.uploadProduct.UploadProductBean" %>
+<%@page import="semiProject.uploadProduct.UploadProductDBBean" %>
+<%@page import="java.io.InputStream"%>
+<%@page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"%>
+<%@page import="com.oreilly.servlet.MultipartRequest"%>
+<%@page import="java.util.Enumeration"%>
+<%@ page language="java" contentType="text/html; charset=euc-kr"
+    pageEncoding="euc-kr"%>
+<%
+	Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+	String product_name = "a";
+	
+	String path = request.getRealPath("upload");
+	int size = 1024*1024;
+	int fileSize = 0;
+	String file = "";
+	String oriFile = "";
+	MultipartRequest multi = new MultipartRequest(request, path, size, "UTF-8", new DefaultFileRenamePolicy());
+	
+	product_name = multi.getParameter("product_name");
+	System.out.print(product_name);
+	
+	Enumeration files = multi.getFileNames();
+	String str = (String) files.nextElement();
+	file = multi.getFilesystemName(product_name);
+	System.out.print(str);
+	
+	if(file != null) {
+		oriFile = multi.getOriginalFileName(file);
+		fileSize = file.getBytes().length;
+	}
+%>

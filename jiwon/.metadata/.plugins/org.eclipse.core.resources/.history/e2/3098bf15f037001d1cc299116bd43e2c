@@ -1,0 +1,59 @@
+<%@page import="semiProject.uploadProduct.ProductDBBean"%>
+<%@page import="semiProject.uploadProduct.ProductBean"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<%
+	String pageNum = request.getParameter("pageNum");
+	int product_number = Integer.parseInt(request.getParameter("product_number"));
+	ProductDBBean updb = ProductDBBean.getInstance();
+	ProductBean upbd = updb.getproduct(product_number, false);
+%>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script language="JavaScript" src="board.js" charset="utf-8"></script>
+</head>
+<body>
+	<center>
+		<form name="up_prodc" method="post"
+			 action="updateProduct_ok.jsp?product_number=<%=product_number %>&pageNum=<%=pageNum%>">
+			<table>
+				<tr class="product_img">
+					<td>상품 이미지 등록</td>
+					<td>
+						<input type="file" name="product_img">
+					</td>
+				</tr>
+				<tr class="product_category">
+					<td>
+						<label class="dress_label">옷 카테고리</label>
+					</td>
+					<td>
+						<select name="category_code">
+						    <option value="none">=== 선택 ===</option>
+						    <option value="t-shirt">티셔츠</option>
+						    <option value="hude-t">후드티</option>
+						    <option value="nite">니트/스웨터</option>
+						    <option value="shirt">셔츠/남방</option>
+						    <option value="pants">바지</option>
+						    <option value="blue-jeans">청바지</option>
+						 </select>
+					 </td>
+				</tr>
+				<br>
+				<tr class="product_name">
+					<td>
+						<label class="product_name_label">상품 이름 </label>&nbsp;
+					</td>
+					<td>
+						<input type="text" name="product_name" value="<%=upbd.getProduct_name() %>">
+					</td>
+				</tr>
+				<br>
+			</table>
+		</form>
+	</center>
+</body>
+</html>

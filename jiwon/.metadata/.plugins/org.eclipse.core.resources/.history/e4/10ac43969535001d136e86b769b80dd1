@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@page import="java.util.Enumeration"%>
+<%@page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"%>
+<%@page import="com.oreilly.servlet.MultipartRequest"%>
+<%@page import="com.jspsmart.upload.File"%>
+<%@page import="com.jspsmart.upload.SmartUpload"%>
+<%@page import="java.net.InetAddress"%>
+<%@page import="java.sql.Timestamp"%>
+<%@page import="semiProject.uploadProduct.UploadProductBean" %>
+<%@page import="semiProject.uploadProduct.UploadProductDBBean" %>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+		request.setCharacterEncoding("UTF-8");
+	    String product_name=null,product_desc=null,category_code=null;
+		String product_img=null;
+		int product_price=0;
+		int product_stock=0;
+	%>
+</body>
+</html>
