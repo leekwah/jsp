@@ -16,7 +16,7 @@
         }
         function show_order(){
             if($('.order_sub').css('display') == 'none'){
-                $('.order_sub').show();
+            $('.order_sub').show();
             } else {
                 $('.order_sub').hide();
             }
@@ -26,13 +26,6 @@
                 $('.board_sub').show();
             } else {
                 $('.board_sub').hide();
-            }
-        }
-        function show_admin(){
-            if($('.admin_sub').css('display') == 'none'){
-                $('.admin_sub').show();
-            } else {
-                $('.admin_sub').hide();
             }
         }
     </script>
@@ -87,34 +80,26 @@
         <div class="tab">
             <button class="product_tab" onclick="show_product()">상품 관리 ></button>
             <div class="product_sub">
-                <a href="">상품 정보 등록</a>
-                <a href="">상품 정보 수정</a>
-                <a href="">상품 정보 삭제</a>
+                <a href="?page=productReg.jsp">상품 정보 등록</a>
+                <a href="?page=productList.jsp">상품 정보 조회</a>
             </div>
         </div>
         <div class="tab">
-            <button class="order_tab" onclick="show_order()">주문 관리 ></button>
+            <button class="order_tab" onclick="show_order()">상품 관리 ></button>
             <div class="order_sub">
-                <a href="">주문 조회</a>
-                <a href="">주문 수정</a>
-                <a href="">주문 삭제</a>
+	            <a href="?page=orderList.jsp">주문 관리 ></a>
+                <a href="?page=refundList.jsp">환불 관리</a>
             </div>
         </div>
         <div class="tab">
             <button class="board_tab" onclick="show_board()">게시판 관리 ></button>
             <div class="board_sub">
-                <a href="?page=admin_list.jsp">문의 관리</a>
-                <a href="">공지사항 관리</a>
-                <a href="">FAQ 관리</a>
+                <a href="?page=qnaList.jsp">문의 관리</a>
+                <a href="?page=listNotice.jsp">공지사항 관리</a>
             </div>
         </div>
         <div class="tab">
-            <button class="admin_tab" onclick="show_admin()">회원 관리 ></button>
-            <div class="admin_sub">
-                <a href="">회원 정보 조회</a>
-                <a href="">회원 정보 수정</a>
-                <a href="">회원 정보 삭제</a>
-            </div>
+            <a href="?page=userList.jsp">회원 관리 ></a>
         </div>
     </div>
 </body>

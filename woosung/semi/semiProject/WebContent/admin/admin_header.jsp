@@ -14,6 +14,6 @@
 </style>
 </head>
 <body>
-	<div>테스트용 헤어 부분입니다.</div>
+	<div>테스트용 헤더 부분입니다.</div>
 </body>
 </html>

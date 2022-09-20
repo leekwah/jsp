@@ -8,15 +8,15 @@
 <style type="text/css">
 .header {
 	width: 1200px;
-	height: 200px;
+	height: 100px;
 	margin: 0 auto;
 }
 #nav_left {
     width: 180px;
-    height: 420px;
+    height: 360px;
     border: 1px solid black;
     text-align: center;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 0;
     transform: translateY(-50%)
