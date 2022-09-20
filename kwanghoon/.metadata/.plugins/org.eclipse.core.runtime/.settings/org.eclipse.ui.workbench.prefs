@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jface.textfont
+PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
+REMOTE_COMMANDS_VIEW_FONT=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+=======
 //org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
 //org.eclipse.ui.commands/state/org.eclipse.wst.xml.views.XPathView.processor.xpathprocessor/org.eclipse.ui.commands.radioState=xpath10
 ACTIVE_HYPERLINK_COLOR=138,201,242
@@ -14,11 +20,28 @@ OUTGOING_COLOR=238,238,238
 PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
 REMOTE_COMMANDS_VIEW_FONT=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
 RESOLVED_COLOR=108,210,17
+>>>>>>> a5a5679681f14cd843596c2c67a61d5d4b237f04
 eclipse.preferences.version=1
 org.eclipse.compare.contentmergeviewer.TextMergeViewer=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
 org.eclipse.debug.ui.DetailPaneFont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
 org.eclipse.debug.ui.MemoryViewTableFont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
 org.eclipse.debug.ui.consoleFont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+<<<<<<< HEAD
+org.eclipse.egit.ui.CommitMessageEditorFont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+org.eclipse.egit.ui.CommitMessageFont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+org.eclipse.egit.ui.DiffHeadlineFont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+org.eclipse.jdt.internal.ui.compare.JavaMergeViewer=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+org.eclipse.jdt.internal.ui.compare.PropertiesFileMergeViewer=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+org.eclipse.jdt.ui.PropertiesFileEditor.textfont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+org.eclipse.jdt.ui.editors.textfont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+org.eclipse.jface.textfont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+org.eclipse.mylyn.wikitext.ui.presentation.textFont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+org.eclipse.pde.internal.ui.compare.ManifestContentMergeViewer=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+org.eclipse.pde.internal.ui.compare.PluginContentMergeViewer=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+org.eclipse.wst.jsdt.internal.ui.compare.JavaMergeViewer=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+org.eclipse.wst.jsdt.ui.editors.textfont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+org.eclipse.wst.sse.ui.textfont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
+=======
 org.eclipse.egit.ui.CommitMessageCommentColor=128,128,128
 org.eclipse.egit.ui.CommitMessageEditorFont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
 org.eclipse.egit.ui.CommitMessageFont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
@@ -79,4 +102,5 @@ org.eclipse.wst.jsdt.internal.ui.compare.JavaMergeViewer=1|D2Coding|15.75|0|WIND
 org.eclipse.wst.jsdt.ui.editors.textfont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
 org.eclipse.wst.sse.ui.textfont=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;
 overriddenByCSS=,org.eclipse.egit.ui.CommitMessageCommentColor,org.eclipse.egit.ui.DiffAddBackgroundColor,org.eclipse.egit.ui.DiffAddForegroundColor,org.eclipse.egit.ui.DiffHeadlineBackgroundColor,org.eclipse.egit.ui.DiffHeadlineForegroundColor,org.eclipse.egit.ui.DiffHunkBackgroundColor,org.eclipse.egit.ui.DiffHunkForegroundColor,org.eclipse.egit.ui.DiffRemoveBackgroundColor,org.eclipse.egit.ui.DiffRemoveForegroundColor,org.eclipse.egit.ui.IgnoredResourceBackgroundColor,org.eclipse.egit.ui.IgnoredResourceForegroundColor,org.eclipse.egit.ui.UncommittedChangeBackgroundColor,org.eclipse.egit.ui.UncommittedChangeForegroundColor,org.eclipse.jdt.ui.ColoredLabels.inherited,org.eclipse.jdt.ui.Javadoc.backgroundColor,org.eclipse.jdt.ui.Javadoc.foregroundColor,org.eclipse.jdt.ui.ColoredLabels.writeaccess_highlight,org.eclipse.mylyn.tasks.ui.colors.foreground.today.scheduled,org.eclipse.mylyn.tasks.ui.colors.foreground.past.scheduled,org.eclipse.mylyn.tasks.ui.colors.foreground.thisweek.scheduled,org.eclipse.mylyn.tasks.ui.colors.foreground.task.active,org.eclipse.mylyn.tasks.ui.colors.category.gradient.start,org.eclipse.mylyn.tasks.ui.colors.category.gradient.end,org.eclipse.pde.genericeditor.extension.editor.color.tag,org.eclipse.pde.genericeditor.extension.editor.color.attribute,org.eclipse.pde.genericeditor.extension.editor.color.text,org.eclipse.pde.genericeditor.extension.editor.color.header,org.eclipse.pde.genericeditor.extension.editor.color.comment,org.eclipse.pde.genericeditor.extension.editor.color.quote,ACTIVE_HYPERLINK_COLOR,CONFLICTING_COLOR,CONTENT_ASSIST_BACKGROUND_COLOR,CONTENT_ASSIST_FOREGROUND_COLOR,org.eclipse.ui.workbench.INFORMATION_BACKGROUND,org.eclipse.ui.workbench.INFORMATION_FOREGROUND,org.eclipse.ui.workbench.HOVER_BACKGROUND,org.eclipse.ui.workbench.HOVER_FOREGROUND,ERROR_COLOR,HYPERLINK_COLOR,INCOMING_COLOR,OUTGOING_COLOR,RESOLVED_COLOR,EDITION_COLOR,org.eclipse.search.ui.match.highlight,org.eclipse.ui.editors.rangeIndicatorColor,org.eclipse.jface.REVISION_NEWEST_COLOR,org.eclipse.jface.REVISION_OLDEST_COLOR,
+>>>>>>> a5a5679681f14cd843596c2c67a61d5d4b237f04
 terminal.views.view.font.definition=1|D2Coding|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|49|D2Coding;

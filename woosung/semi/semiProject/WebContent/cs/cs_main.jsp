@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<jsp:useBean class="cs.QnABoardBean" id="qBoard"></jsp:useBean>
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>고객센터 메인 페이지</h1>
+=======
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -21,5 +35,6 @@
 	</ul>
 	<hr />
 	<jsp:include page="faq/faq.jsp"></jsp:include>
+>>>>>>> a5a5679681f14cd843596c2c67a61d5d4b237f04
 </body>
 </html>
